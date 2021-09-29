@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Birthstone&display=swap");
+p {
+  font-family: "Birthstone", cursive;
+  font-size: 1.5em;
+}
+
+h1 {
+  letter-spacing: 20px;
+  text-shadow: 4px 4px black;
+}
+
+.App {
+  text-align: center;
+  color: white;
+  height: 100%;
+  background-color: rgb(124, 104, 104);
+}
+
+.nav {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  list-style: none;
+  gap: 20px;
+  color: white;
+  background-color: rgb(95, 71, 71);
+  padding: 10px 40px 10px 20px;
+}
+
+#about.visible {
+  height: auto;
+  background: rgb(186, 200, 218);
+}
+
+#about {
+  color: rgb(51, 51, 51);
+  text-align: left;
+  padding: 0px 40px 0px 20px;
+  height: 0;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.about-text {
+  max-width: 80%;
+  height: fit-content;
+  color: black;
+}
+
+.about-button {
+  background: rgb(29, 39, 48);
+}
+
+.input-fields {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.song-list {
+  padding: 20px;
+  background-color: rgb(155, 130, 116);
+  text-align: left;
+  width: 100%;
+}
+
+button {
+  display: inline-block;
+  border: inset;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 0;
+  text-decoration: none;
+  background: rgb(29, 39, 48);
+  color: white;
+  font-family: sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #464646;
+}
+
+table {
+  color: white;
+  text-align: left;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  padding: 10px 10px;
+}
+
+input,
+select {
+  padding: 10px 20px;
+  border: inset;
+}
+
+select {
+  background-color: rgb(29, 39, 48);
+  color: white;
+}
+
+code {
+  background-color: rgb(51, 51, 51);
+  color: white;
+  padding: 2px 5px;
+  margin: 8px;
+}
+
+#display-genre-select {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+#add-song-button {
+  margin-left: 20px;
+  border-radius: 5px;
+}
